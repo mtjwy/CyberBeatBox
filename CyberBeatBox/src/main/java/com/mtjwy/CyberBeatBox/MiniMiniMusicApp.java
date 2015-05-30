@@ -2,7 +2,10 @@ package com.mtjwy.CyberBeatBox;
 
 import javax.sound.midi.*;
 
+import org.junit.Test;
+
 public class MiniMiniMusicApp {
+	@Test
 	public void play() {
 		try {
 			Sequencer player = MidiSystem.getSequencer();
